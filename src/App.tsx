@@ -11,7 +11,7 @@ import { CyclesContextProvider } from './contexts/CyclesContext'
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <BrowserRouter>
+      <BrowserRouter basename='ignite-timer'>
         <CyclesContextProvider>
           <Router />
         </CyclesContextProvider>
